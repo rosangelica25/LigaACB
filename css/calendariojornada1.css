@@ -1,0 +1,60 @@
+body{
+    background-color: #020844;
+    font-family: sans-serif;
+}
+
+#main-container{
+    margin: 20px auto;
+    width: 600px;
+}
+
+.container{
+    margin: 20px auto;
+    width: 600px;
+}
+
+table{
+    width: 20%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 25px;
+    
+}
+
+tr{
+    border-bottom: solid 1px red;
+}
+
+thead{
+    background-color: #EE180D;
+    color: white;
+    border-bottom: solid 5px #D40F05;
+    
+}
+
+.equipo{
+    background-color: #EE180D;
+    color: white;
+    font-size: 30px;
+}
+
+.jornada{
+    background-color: #1E1C1B;
+    color: white;
+    font-size: 20px;
+}
+
+.jugador{
+    background-color: #FA4239;
+}
+
+.dorsal{
+    background-color: #1E1C1B;
+    color:white;
+    border-bottom: solid 1px white;
+}
+

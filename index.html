@@ -1,0 +1,261 @@
+<html>
+<head>
+    
+    <title>Liga ACB</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shorcout icon" href="imagenes/faviconpeque.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <style>
+    body {
+        background: white;
+        font-family: "open sans";
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+        background: #f2f2f2;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+    }*/
+        
+        .swiper-container {
+      width: 100%;
+      height: 300px;
+      margin: 20px auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .append-buttons a {
+      display: inline-block;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
+        
+  </style>
+    </head>
+    
+    
+<body>
+    <header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menuplantilla.html">Plantillas</a>
+        <a href="calendariojornada1.html">Calendario</a>
+        <a href="formulario.html">Formulario</a>
+        </nav>
+        <section class="textos-header">
+        <h1>Asociacion de Clubes de Baloncesto</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
+    </header>
+    
+    <main>
+    <section class="contenedor sobre-nosotros">
+        <h2 class="titulo">Sobre nosotros</h2>
+        <div class="contenedor-sobre-nosotros">
+        <img src="imagenes/jugadorr.png" alt="Sobre nosotros" class="imagen-about-us">
+            <div class="contenido-textos">
+                <h3><span>1</span>¿Quienes somos?</h3>
+                <p>Somos la principal liga de baloncesto profesional de España.</p>
+                <h3><span>2</span>Sistema de competicion</h3>
+                <p>La Liga ACB está formada por 18 equipos que compiten en una primera fase o fase regular en una Liga en la que cada uno se enfrenta dos veces a todos los demás (una vez como local y otra como visitante).</p>
+            </div>
+        </div>
+    </section>
+    </main>
+    
+    <main>
+    <section class="equipos">
+        <h1>Equipos</h1>
+    </section>
+    </main> 
+    <!--<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <a href="plantillavalencia.html"><div class="swiper-slide" style="background-image:url(imagenes/Valencia_Basket_Club.png)"></div></a>
+        <a href="plantillamorabanc.html"><div class="swiper-slide" style="background-image:url(imagenes/morabanc_andorra.jpg)"></div></a>
+        <a href="iberostartenerife.html"><div class="swiper-slide" style="background-image:url(imagenes/iberostar_tenerife.jpg)"></div></a>
+        <a href="bilbao.html"><div class="swiper-slide" style="background-image:url(imagenes/retabet_bilbao_basket.jpg)"></div></a>
+      <div class="swiper-slide" style="background-image:url(imagenes/montakit.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(imagenes/sanpablo.png)"></div>
+      <div class="swiper-slide" style="background-image:url(imagenes/joventut.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(imagenes/realmadrid.png)"></div>
+        <a href="baximanresa.html"><div class="swiper-slide" style="background-image:url(imagenes/baximanresa.jpg)"></div></a>
+        <a href="unicaja.html"><div class="swiper-slide" style="background-image:url(imagenes/unicaja.png)"></div></a>
+    <div class="swiper-slide" style="background-image:url(imagenes/ucam.png)"></div>
+      <div class="swiper-slide" style="background-image:url(imagenes/coosur.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(imagenes/monbus.png)"></div>
+        <a href="barca.html"><div class="swiper-slide" style="background-image:url(imagenes/barca.jpg)"></div></a>
+      <div class="swiper-slide" style="background-image:url(imagenes/baskonia.png)"></div>
+        <a href="movistar.html"><div class="swiper-slide" style="background-image:url(imagenes/movistar.jpg)"></div></a>
+      <div class="swiper-slide" style="background-image:url(imagenes/gran%20canaria.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(imagenes/zaragoza.jpg)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <!--<div class="swiper-pagination"></div>
+  </div>-->
+
+  <!-- Swiper JS -->
+  <script src="../package/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <!--<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>-->
+   
+   <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="imagenes/barca.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/baskonia.png"></div>
+      <div class="swiper-slide"><img src="imagenes/baximanresa.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/coosur.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/gran%20canaria.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/iberostar_tenerife.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/joventut.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/monbus.png"></div>
+      <div class="swiper-slide"><img src="imagenes/montakit.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/morabanc_andorra.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/movistar.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/realmadrid.png"></div>
+      <div class="swiper-slide"><img src="imagenes/retabet_bilbao_basket.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/sanpablo.png"></div>
+      <div class="swiper-slide"><img src="imagenes/ucam.png"></div>
+      <div class="swiper-slide"><img src="imagenes/unicaja.png"></div>
+      <div class="swiper-slide"><img src="imagenes/valencialogo.jpg"></div>
+      <div class="swiper-slide"><img src="imagenes/zaragoza.jpg"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  
+  <!-- Swiper JS -->
+  <script src="../package/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var appendNumber = 4;
+    var prependNumber = 1;
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide([
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+      ]);
+    });
+    document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+    });
+    document.querySelector('.append-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+    });
+    document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide([
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+      ]);
+    });
+  </script>
+    
+    
+    <footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+        <h4>Redes sociales</h4>
+            <a href="https://twitter.com/ACBCOM?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><p class="icon-twitter"></p></a>
+            <a href="https://www.facebook.com/ACBCOM"><p class="icon-facebook-squared"></p></a>
+            <a href="https://www.instagram.com/acbcom/?hl=es-la"><p class="icon-instagram"></p></a>
+            <a href="https://www.youtube.com/channel/UCjZh7FzztNo3up7mD75DAiQ"><p class="icon-youtube-play"></p></a>
+        </div>
+        <div class="content-direccion">
+        <h4>Direccion</h4>
+            <address>C/ Iradier 37 - 08017 Barcelona</address>
+            <address>Pº de la Castellana, 101 - 28046 Madrid</address>
+            <p>Teléfono: 93.417.24.04</p>
+            <p>Fax: 93.418.23.94</p>
+            <p>Contacto: acb@acb.es</p>
+        </div>
+        </div>
+    </footer>
+    </body>
+</html>

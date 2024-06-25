@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;    
+    background: #020A3D;
+}
+
+header{
+    background: url(bannerplantilla.jpg);
+    height: 600px;
+    background-size: cover;
+    
+}
+
+section h1{
+    color: white;
+    font-size: 44px;
+}
+
+.conte h2{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 130px;
+}
+
+.conte p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+section{
+    max-width: 1000px;
+    margin: -2px;
+    padding: 30px 0;
+    
+}
+
+.conte{
+    text-align: center;
+}
+
+.lista-elementos{
+    background: white;
+    padding: 25px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.lista-elementos ol{
+    counter-reset: li;
+    list-style-type: none;
+}
+
+.lista-elementos ol>li::before{
+    content: counter(li);
+    counter-increment: li;
+    
+    padding: 3px 8px;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    line-height: 35px;
+    background: #F58E26;
+    color: white;
+    border-radius: 50%;
+}
+
+.lista-elementos h1{
+    text-align: center;
+}
